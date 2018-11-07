@@ -1,0 +1,44 @@
+lioraryepaz
+206240996
+Lior Paz
+
+Description - ex3:
+The exercise has 9 parts - 
+converting differnt string inputs to a list
+concatanating lists
+average calculation
+determing if 2 sets of lists are cyclic permutations of each ther
+histograming a list
+calculate the prime factors of natural numbers
+creating the cartesian products of 2 lists
+finding pairs of numbers in a list that their sum equa to a specific number
+
+and, questions:
+1. cyclic - my code brought back True. the input should be type list,not
+string, but i didnt put a validation for this in my code.
+as it ran, every time i refered to a specific index, it actually picked a
+certain letter in the string - as the strings are actually permutations of
+each other, i recieved True
+
+2. histogram - i recieved [0, 1, 1] - the defenition was that in the input,
+items in num_list will always be smaller than n, which isnt the case. in
+addition, i never put a validation for that. but, the function didnt crash -
+actually, it worked preety well considering the situation.
+it simply checked for refrences to index numbers in the list, and change these
+indexes items in the output is it should have. the "problem" was that the list
+contained items bigger than n, but my function just ignored them.
+
+3. prime - again, the input didnt match the EX definitions - but, my function
+didnt crash, it brought back [].
+Due to n = 0, it simply didnt fit my loop range criteria, my loop wasnt
+activated, and the func returned the default output i gave it - [].
+
+4. pairs - again, the input didnt match the EX definitions - items at the list
+repeated themselves - that why, my output
+[[0, 2], [0, 2], [0, 2], [0, 2], [1, 1]] - contained items equals to each other 
+
+In general, i learned a lottt about loops here - also on technique of using them,
+but also on the logic need to be used using them.
+
+Special Comments:
+success in creating the functions for cyclic, histogram & prime was a big joy!!
